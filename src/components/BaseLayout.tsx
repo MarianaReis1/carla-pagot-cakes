@@ -12,7 +12,10 @@ export default function BaseLayout({children}:any) {
       </Head>
 
       <Navigation></Navigation>
-      {children}
+
+      <main className="">
+        {children}
+      </main>
     </>
   )
 }

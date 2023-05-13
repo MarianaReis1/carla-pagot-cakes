@@ -6,7 +6,11 @@ export default function Home() {
       <Head>
         <title>Home Page</title>
       </Head>
-      <h1 className='text-blue-800 font-bold'>HOME PAGE</h1>
+
+      <h1 className='font-bold text-blue border border-red border-6 p-5 sm:text-red'>
+        HOME PAGE
+      </h1>
     </>
   )
 }
+
